@@ -1,0 +1,408 @@
+    body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.wrappor {
+    margin: auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.menu {
+    background-color: #1f1f56;
+
+}
+
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.icons {
+    display: flex;
+    padding-left: 10px;
+}
+
+.button-list {
+    display: flex;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #b1b1d2;
+    font-family: "Arial";
+    background-color: #1f1f56;
+    list-style: none;
+}
+
+
+.button-list a:hover {
+    color: #fd8300;
+}
+
+
+
+.batton {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #b1b1d2;
+    font-family: "Arial";
+    margin-right: 13px;
+    text-decoration: none;
+}
+
+.ikonka {
+    margin-left: 13px;
+}
+
+.messenger {
+    list-style: none;
+    display: flex;
+    margin-right: 22px;
+}
+
+.messenger a:hover {
+    color: #fd8300;
+}
+
+.proposition {
+    padding: 90px;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(/image/house.jpg   );
+    background-size: cover;
+}
+
+.propositon {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    text-align: center;
+}
+
+.coteth {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.grn {
+    font-size: 40px;
+    line-height: 24px;
+    color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.info {
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+.info a {
+    display: flex;
+ 
+    font-size: 14px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.namber {
+    font-size: 18px;
+    color: #25252c;
+    line-height: 24px;
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+.namber a {
+    text-decoration: none;
+}
+
+.namber a:hover {
+    color: #fd8300;
+}
+
+.call {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.call a {
+    text-decoration: none;
+    border: 2px solid orange;
+    width: 150px;
+    padding: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 50px;
+}
+
+.call a:hover {
+    color: #fd8300;
+}
+
+
+
+.email {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-family: "Arial";
+}
+
+.email a {
+    text-decoration: none;
+}
+
+.email a:hover {
+    color: #fd8300;
+}
+
+.email-icon {
+    width: 13px;
+    height: 12px;
+}
+
+main {
+    padding-top: 30px;
+}
+
+.text {
+    max-width: 700px;
+    width: 677px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial";   
+}
+
+.text h1 {
+    font-size: 30px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+.pronas {
+    font-size: 14px;
+line-height: 24px;
+text-decoration: underline;
+color: #fd8300;
+font-weight: bold;
+font-family: "Arial";
+}
+
+
+
+.project {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #24242b;
+    font-family: "Roboto Slab";
+    max-width: 832px;
+
+}
+
+
+.edmonton  {
+    width: 220px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-family: "Arial";
+}
+
+.houses img {
+    width: 100%; 
+}
+
+.edmonton a {
+    font-size: 14px;
+line-height: 24px;
+color: #1f1f56;
+font-weight: bold;
+font-family: "Arial";
+}
+
+.montreal  {
+    width: 220px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-family: "Arial";
+}
+
+.montreal a {
+    font-size: 14px;
+line-height: 24px;
+color: #1f1f56;
+font-weight: bold;
+font-family: "Arial";
+}
+
+.calgary {
+    width: 220px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-family: "Arial";
+}
+
+.calgary a {
+    font-size: 14px;
+line-height: 24px;
+color: #1f1f56;
+font-weight: bold;
+font-family: "Arial";
+}
+
+.liniya {
+    display: flex;
+}
+
+span {
+    display:inline-block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #000;
+    transform: rotate(-45deg);
+    border-top-color: transparent;
+    border-left-color: transparent;
+    transition: .5s;
+    
+}
+
+aside li:hover span {
+    transform: rotate(45deg);
+
+}
+
+
+aside {
+    width: 220px;
+    background-color: #e4e4ec;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+}  
+
+.footer-info {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    font-family: "Arial";
+}    
+
+aside p {
+    background-color: #1f1f56;
+    margin: 0; 
+    color: #fff;
+     padding: 15px;
+}
+
+aside ul  {
+    list-style: none;
+    margin: 0;  
+    padding:  0;
+}
+
+
+aside a{
+    padding: 15px;
+    display: block;
+    color:#25252c;
+    text-decoration: none;
+    border-bottom: 1px solid #cdcddd;
+}
+
+aside a:hover{
+    background-color: #fd8300;
+    color: #fff;
+    border-color: #666;
+}
+
+aside > ul > li:last-child a{
+    border: none;
+}
+
+.inside{
+    display:none;
+}
+
+.inside a {
+    padding-left: 30px;
+    color: #666;
+}
+
+.inside a:hover{
+    background-color: #cecedd;
+    color: #666;
+}
+
+ li:hover ul {
+    display: block;
+}
+
+aside li:hover> a{
+    background-color: #fd8300;
+    color: #fff;
+}
+
+
+.namberrr {
+    font-size: 18px;
+    color: #25252c;
+    line-height: 24px;
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+.namberrr a:hover {
+    color: #fd8300;
+}
+
+
+
+footer {
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666666;
+    font-family: "Arial";
+    background-color: #ededf5;
+    
+}
+footer ul {
+    list-style: none;
+    
+}
+
+
+

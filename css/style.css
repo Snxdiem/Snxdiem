@@ -78,7 +78,7 @@
 
 .proposition {
     padding: 90px;
-    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(/image/house.jpg   );
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(image/house.jpg   );
     background-size: cover;
 }
 
